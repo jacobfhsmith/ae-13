@@ -82,6 +82,13 @@ sta199 %>%
   mutate(prob = n / sum(n)) %>%
   filter(section == "Section 02")
 ```
+We can also use the hypothetical 10000 here.
+
+|             | Sec2  | Other    | Total |
+|-------------|-------|----------|-------|
+| **FY**      |       |          |       |
+| **Oth**     |       |          |       |
+| **Total**   |       |          |       |
 
 ## The statistical process
 
